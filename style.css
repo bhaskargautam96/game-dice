@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat+Alternates:wght@200;600&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lobster Two', cursive; */
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: lighter;
+    
+}
+.container{
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+.gif{
+    width:100vw;
+    height: 100vh;
+    z-index: 1;
+    display: none;
+}
+.picture{
+    position: absolute;
+    display:flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.picture .pic{
+    margin-right: 20px;
+}
+.picture .pic img{
+    border-radius:30px ;
+}
+#btn{
+    cursor: pointer;
+}
+.clik{
+    position: fixed;
+    top:25%;
+    left: 40%;
+    font-weight: 600;
+}
+
+
+.wrap {
+    
+    display: flex;
+    top: 80%;;
+    left: 45%;    
+    position: absolute;    
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  button{
+    background-color: aqua;
+    border: none;
+    outline: none;
+    width: 100px;
+    height:50px;
+    border-radius: 40px;
+    transition: all .3s ease;
+    font-weight: bold;
+    
+  }
+  button:hover{
+    
+    font-weight: bold;
+    box-shadow: 4px 6px 14px rgb(9, 9, 9);
+  }
+
+  .modal-fullscreen .modal-content {
+      width: 70%;
+      margin: 0 auto;
+      
+  }
